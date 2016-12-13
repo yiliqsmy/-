@@ -1,0 +1,67 @@
+$(function() {
+			var si = $(".imgs li").size(); //li长度
+			console.log(si)
+			var timer;
+			//下一张与自动播放的公共函数
+			function next() {
+				//当前显示的序号
+				var ind = parseInt($(".slide_switch__item--current").attr('data-index'));
+				ind = ++ind % si;
+				//console.log(ind);//按下后的序号
+				$(".mod_slide_switch a").removeClass().addClass("slide_switch__item");
+				$(".mod_slide_switch a").eq(ind).addClass("slide_switch__item--current");
+				run(ind);//变化
+			}
+			//图片转换函数,改变p
+			function run(currentNum) {
+                       var  no1=4;
+				$("imgs li").each(function(index) {
+						 var cha=no1-1;
+						//取绝对值
+						  $(this).attr("class", "item" + " p" + cha).show().css('left', iePosMap[cha]);
+							 
+								$(this).attr("class", "item" + " p" + cha).css('left', iePosMap[cha]).hide();
+						 
+   			});
+			}
+					//上一张
+					$(".slide_action__btn--left").click(function() {
+						//当前显示的序号
+						var ind = parseInt($(".slide_switch__item--current").attr('data-index'));
+						ind = --ind % si;
+						if(ind < 0) {
+							ind = si - 1;
+						}
+						//console.log(ind);//按下后的序号
+
+						$(".mod_slide_switch a").removeClass().addClass("slide_switch__item");
+						$(".mod_slide_switch a").eq(ind).addClass("slide_switch__item--current");
+						run(ind);//变化
+					})
+
+					//下一张
+					$(".slide_action__btn--right").click(next);
+
+					//呼吸灯导航
+					$(".mod_slide_switch a").click(function() {
+						//当前按下的序号
+						var ind =parseInt($(this).attr('data-index'));
+						//console.log(ind);//按下后的序号
+						//按下的序号
+						$(".mod_slide_switch a").removeClass().addClass("slide_switch__item");
+						$(this).addClass("slide_switch__item--current");
+						run(ind);//变化
+					})
+
+					//自动播放
+					timer = setInterval(next, 1000)
+
+					//开关定时器
+					$(".imgs").mouseover(function() {
+						clearInterval(timer)
+					}); 
+					$(".imgs").mouseout(function() {
+						timer = setInterval(next, 1000)
+					});
+
+				});
