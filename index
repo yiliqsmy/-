@@ -1,0 +1,172 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Keywords" content="秦时明月、君临天下、秦时明月手游、秦时明月官网、秦时明月官方网站、秦时明月动画、秦时明月电视剧、秦时明月特别篇、秦时明月电影、龙腾万里、诸子百家、万里长城、夜尽天明、百步飞剑、秦时明月图片、秦时明月真人剧、秦时明月舞台剧、秦时明月全品牌战略、秦时明月小说、沈乐平、天明、墨家巨子、卫庄、盖聂、白凤、少羽、高月、石兰、鬼谷派、赤练、苍狼王、隐蝠、黑麒麟、机关无双、燕丹、高渐离、雪女、班大师、大铁锤、盗跖、端木蓉、徐夫子、庖丁、荆轲、伏念、颜路、张良、荀子、东皇太一、月神、星魂、云中君、大司命、少司命、楚南公、逍遥子、公孙玲珑、秦始皇嬴政、扶苏、李斯、赵高、王翦、蒙恬、黑剑士、六剑奴、转魄、灭魂、真刚、断水、乱神、魍魉、公输仇、龙且、项梁、范增、韩信、丽姬、鬼谷子、燕太子妃、阿纲、晏懿、雁春君、绝影、荆轲、旷修、姬无夜、紫女" />
+        <meta name="Description" content="《秦时明月》手游改编自同名系列动画《秦时明月》，由玄机科技正版授权、原创动漫团队全程监制、触控科技代理发行和运营。《秦时明月》手游是一款角色收集型RPG卡牌游戏。华丽精美的游戏画面和技能特效，携手百位动漫人物，100%再现动漫剧情，特邀原版动漫原声倾情献声。游戏凝聚了动漫七年精髓，渗透了动漫中华古典文化，并同步植入《秦时明月之君临天下》第五部动漫剧情，带领玩家在指尖领略秦末乱世的风云变幻！" />
+        <title>秦时明月手游-亿万秦迷推荐 - COCO</title>
+        <link rel="shortcut icon" href="http://pic03.punchbox.org/qsmy/res/public/img/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="http://pic03.punchbox.org/qsmy/res/pc/2/css/style.css?t=7" media="all">	
+        <script type="text/javascript" src="http://pic03.punchbox.org/qsmy/res/pc/2/js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript">
+            var gameName = "qsmy_cover";
+            
+            function download(osType)
+            {
+                var downUrls = {
+                    android: "http://qsmy.coco.cn/pack/download/M1405492013X/",
+					ios: "http://qsmy.coco.cn/pack/download/G1405492002G/"
+                };
+             
+                location.href = downUrls[osType];
+            }
+        </script>
+        <script type="text/javascript" src="http://pic03.punchbox.org/static/js/total-2.0.js"></script>
+        <link rel="stylesheet" href="http://pic03.punchbox.org/qsmy/res/pc/2/js/fancyBox/source/jquery.fancybox.css" media="all">
+        <link rel="stylesheet" href="http://pic03.punchbox.org/qsmy/res/pc/2/js/fancyBox/source/helpers/jquery.fancybox-thumbs.css" media="all">
+        <script src="http://pic03.punchbox.org/qsmy/res/pc/2/js/fancyBox/source/jquery.fancybox.js"></script>
+        <script src="http://pic03.punchbox.org/qsmy/res/pc/2/js/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?96c17ddaf3867202b428952e3d7edd1c";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+
+    </head>
+    <body>
+        <div class="Main">
+            <!--<a href="#" class="c_logo" title="秦时明月">秦时明月</a>-->   
+         <a href="http://qsmy.coco.cn/pay/" class="pay"> <img src="http://pic03.punchbox.org/qsmy/res/pc/2/images/pay.png" style="" alt=""> </a> 
+ 	
+            <div class="coverCont">
+                <div class="c_btns">
+                    <a href="http://qsmy.coco.cn/home" class="enter" title="进入官网">进入官网</a>
+                    <a href="http://qsmy.coco.cn/pack/download/M1405492013X/" id="anzhuo" class="az" title="安卓下载">安卓下载</a>
+                    <a id="ios" href="http://qsmy.coco.cn/pack/download/G1405492002G/" class="ios" title="ios下载">ios下载</a>                
+                    <img src="http://pic03.punchbox.org/qsmy/res/public/img/autodown_qr.png" alt="二维码" width="95" height="95" />
+                </div>
+                <div class="c_fl">
+                    <a href="http://qsmy.coco.cn/cjhd" target="_blank" title="最新福利"></a>
+                </div>  
+                      
+            </div>    
+        </div>
+        <!--  浮窗 -->
+        <a href="javascript:;">
+		
+            <div class="floatDiv"  style="display:none">  
+                <img src="http://pic03.punchbox.org/qsmy/res/pc/2/images/zhuanshufuli.png" style="width:193px" alt=""> 
+            </div>
+        </a>
+
+        <!--footer-->
+        <div class="footer">
+            <div>
+                <a href="http://www.chukong-inc.com/about_us/summary" target="_blank">触控科技</a> | <a href="http://hr.chukong-inc.com/" target="_blank">触控招聘</a> | <a href="http://www.chukong-inc.com/contact_us" target="_blank">联系我们</a> | <a href="http://www.coco.cn/users/question" target="_blank">常见问题</a> | <a href="http://www.chukong-inc.com/about_us/privacy" target="_blank">隐私条款</a> | <a href="http://www.coco.cn/users/chargedesc" target="_blank">充值说明</a> | <a href="http://gm.coco.cn/" title="客服中心" target="_blank">客服中心</a><br />
+                Copyright © 2013-2014 COCO ALL RIGHTS RESERVED. 北京触控科技有限公司版权所有<br />
+                京ICP备11006519号-15  京公网安备11010502020289
+            </div>
+        </div>	
+        
+        <div id="showout" class="cdialog">
+    <div class="shuru"></div>
+    <div>
+        <input type="text" class="phone" placeholder="">
+        <div class="shengchengma"><img src="http://pic03.punchbox.org/qsmy/res/pc/2/images/shengchengma.jpg" alt=""></div>
+    </div>
+
+    <a class="yuyue">领取礼包</a>
+    <a href="javascript:;" id="closeCoverPop" title="关闭弹窗"></a>
+</div>
+
+<div id="showout2" class="cdialog2">
+    <div  class="jihuonum">
+        123333333333
+    </div>
+
+    <a href="javascript:;" id="closeCoverPop2" title="关闭弹窗"></a>    
+</div>
+<div id="fullbg2"></div>
+
+<div id="showout3" class="cdialog3">
+    <div class="cuccess"></div>
+    <a href="javascript:;" id="closeCoverPop3" title="关闭弹窗"></a>    
+</div>
+<div id="fullbg3"></div>
+
+<script>
+    function refreshCode()
+    {
+        $.post("http://qsmy.coco.cn/index.php?gift_code/refreshCode", {}, function (response) {
+            $(".shengchengma").html(response);
+            $(".shengchengma img").click(function(){
+                refreshCode();
+            });
+        });
+    }
+    
+    $(".floatDiv").click(function () {
+        refreshCode();
+
+        var bh = $("body,html").height();
+        var bw = $("body,html").width();
+        $("#fullbg").css({
+            height: bh,
+            width: bw,
+            display: "block"
+        });
+        $("#showout").fadeIn(300);
+        $("#fullbg").fadeIn(300);
+    });
+
+    $(".yuyue").click(function () {
+        var postData = {
+            type: 13,
+            vcode: $(".phone").val()
+        };
+        $.post("http://qsmy.coco.cn/index.php?gift_code/get_by_ip", postData, function (response) {
+            if (response.status == 1)
+            {
+                $(".jihuonum").text(response.code);
+                $("#showout").hide();
+                $("#showout2").show();
+            }
+            else if (response.status == -1)
+            {
+                alert('抱歉，没有激活码了');
+            }
+            else if (response.status == -2)
+            {
+                alert('您已经领过了');
+            }
+            else if (response.status == -3)
+            {
+                alert('验证码错误');
+            }
+        }, 'json');
+
+    });
+
+    $("#closeCoverPop2").click(function () {
+        $("#showout2").hide();
+
+
+    });
+    $("#closeCoverPop").click(function () {
+        $("#fullbg,.cdialog").fadeOut(300);
+    });
+
+    $("#closeCoverPop2").click(function () {
+        $("#fullbg2,.cdialog2").fadeOut(300);
+    });
+
+    $("#closeCoverPop3").click(function () {
+        $("#fullbg3,.cdialog3").fadeOut(300);
+    });
+</script>    </body>
+</html>
