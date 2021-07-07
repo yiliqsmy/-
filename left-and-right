@@ -1,0 +1,188 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>产品二三级分类筛选</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script src="TouchSlide.js" ></script>
+<script type="text/javascript" src="iscroll5.2.0.js"></script>
+<style>
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, form, legend, fieldset, input, button, select, textarea {margin:0; padding:0; font-weight: normal;font-style: normal;font-size: 100%; font-family:'微软雅黑', 'Microsoft YaHei', 'YaHei', sans-serif;} 
+ol, ul ,li{list-style: none;} 
+img {border: 0;} 
+body {color:#000; background:#FFF; font: 12px/1.5 Arial, Helvetica, sans-serif;} 
+html{-webkit-text-size-adjust:none;}/*chrome font-size<12px */
+body {padding:0; margin:0;}
+/* top iscroll */
+#top-scroll {width:100%; height:80px; overflow:hidden; margin-bottom:10px; background:#fafafa;}
+#top-scroll ul { height:80px; width:auto; padding-left:10px;}
+#top-scroll ul li{ width:78px; height:78px; margin-right:10px; border:1px solid #f00; float:left; text-align:center; line-height:78px; background:#fff;}
+/* left iscroll */
+#left-scroll {width:28%; height:100%; overflow:hidden; position:absolute; background:#f0f0f0; left:0;}
+#left-scroll ul { height:auto; padding:0 0 250px 10px;}
+#left-scroll ul li{ height:32px; margin-bottom:10px; border:1px solid #f00; text-align:center; line-height:32px;}
+/* right iscroll */
+#right-scroll { width:72%; height:100%; overflow:hidden; background:#ff0; position:absolute; right:0;}
+#right-scroll ul { height:auto; width:100%; padding-bottom:250px;}
+#right-scroll ul li{ height:120px; margin-bottom:10px; border:1px solid #f00; text-align:center; line-height:120px; margin:0 10px 10px 10px;}
+
+/*slide*/
+.focus{width: 100%; height: 150px; position: relative; overflow: hidden;margin-bottom:10px;}
+.focus .bd { position: relative; z-index: 0;}
+.focus .bd li { height: 150px; overflow: hidden;}
+.focus .bd li a { -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.focus .bd li a img { width: 100%; display: block; margin: 0; padding: 0;}
+
+.focus .search-tools { width:86%; height:30px; line-height:30px; background:url(search_ico111.png) 10px 8px rgba(255,255,255,0.8) no-repeat;background-size: 25px; position:absolute; margin:10px 7%; top:0; padding:5px 0; border-radius:3px; text-align:left; z-index:10; -webkit-box-shadow:inset 0 0 1px #666; -moz-box-shadow:inset 0 0 1px #666; box-shadow:inset 0 0 1px #666; }
+.focus .search-tools span { color:#aaa; font-size:16px; margin-left:50px;}
+/*slide end*/
+</style>
+</head>
+<body>
+<div id="focus" class="focus">
+	<div class="search-tools" id="search-url">
+    	<span>输入你要搜索的商品名称</span>
+    </div>
+    <div class="bd">
+        <div class="tempWrap" style="overflow:hidden; position:relative;">
+            <ul id="Gallery" class="gallery" style="width: 2484px; position: relative; overflow: hidden; padding: 0px; margin: 0px; transition-duration: 200ms; transform: translate(-828px, 0px) translateZ(0px);">
+                <li style="display: table-cell; vertical-align: top; width: 414px;">
+                    <a href="http://www.bluenested.com" target="_blank"><img src="store_ad1.jpg" alt="1"></a>
+                </li>
+                <li style="display: table-cell; vertical-align: top; width: 414px;">
+                    <a href="http://www.bluenested.com" target="_blank"><img src="store_ad2.jpg" alt="2"></a>
+                </li>
+                <li style="display: table-cell; vertical-align: top; width: 414px;">
+                    <a href="http://www.bluenested.com" target="_blank"><img src="store_ad3.jpg" alt="3"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="top-scroll">
+	<ul>
+    	<li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>
+</div>
+<div id="left-scroll">
+	<ul>
+    	<li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+        <li>H</li>
+        <li>I</li>
+        <li>J</li>
+        <li>K</li>
+        <li>L</li>
+        <li>M</li>
+        <li>N</li>
+        <li>O</li>
+        <li>P</li>
+        <li>Q</li>
+        <li>R</li>
+        <li>S</li>
+        <li>T</li>
+        <li>U</li>
+        <li>V</li>
+        <li>W</li>
+        <li>X</li>
+        <li>Y</li>
+        <li>Z</li>
+    </ul>
+</div>
+<div id="right-scroll">
+	<ul>
+    	<li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li><a href="http://www.bluenested.com" target="_blank">BlueNested.com</a></li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+/*banner滚动图片*/
+                TouchSlide({
+                    slideCell : "#focus",
+                    //titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+                    mainCell : ".bd ul",
+                    effect : "leftLoop",
+                    autoPlay : true, // 自动播放
+                    //autoPage : true, // 自动分页
+                    delayTime: 200, // 毫秒；切换效果持续时间（执行一次效果用多少毫秒）
+                    interTime: 2500, // 毫秒；自动运行间隔（隔多少毫秒后执行下一个效果）
+                    //switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+                });
+
+
+//单击搜索框跳转到专用搜索页面
+$("#search-url").click(function (){
+    window.location.href="tmpl/search.html";
+});
+//-------
+$(document).ready(function(){
+	//动态获取li总宽度后用jq重置ul宽度
+	//top
+	var top_size = $("#top-scroll ul li").outerWidth(true);//获取元素整个占位宽度包含padding、margin和border
+	var top_li_num = $("#top-scroll ul li").size();//获取li的数量
+	var top_ul_width = top_size * top_li_num;//ul的宽度=li数量*单个li宽度
+	$("#top-scroll ul").css({'width':top_ul_width});
+	var topScroll;
+	topScroll = new IScroll('#top-scroll',{ 
+		scrollX: true,//横向滚动
+		scrollbars: false,//是否显示滚动条
+		//click:true
+	},100);
+	//left
+	var left_size = $("#left-scroll ul li").outerHeight(true);//获取元素整个占位宽度包含padding、margin和border
+	var left_li_num = $("#left-scroll ul li").size();//获取li的数量
+	var left_ul_height = left_size * left_li_num;//ul的宽度=li数量*单个li宽度
+	$("#left-scroll ul").css({'height':left_ul_height});
+
+	var leftScroll;
+	leftScroll = new IScroll('#left-scroll',{ 
+		scrollY: true,//横向滚动
+		scrollbars: false,//是否显示滚动条
+		//click:true
+	},100);
+	//right
+	var right_size = $("#right-scroll ul li").outerHeight(true);//获取元素整个占位宽度包含padding、margin和border
+	var right_li_num = $("#right-scroll ul li").size();//获取li的数量
+	var right_ul_height = right_size * right_li_num;//ul的宽度=li数量*单个li宽度
+	$("#right-scroll ul").css({'height':right_ul_height});
+
+	var rightScroll;
+	rightScroll = new IScroll('#right-scroll',{ 
+		scrollY: true,//横向滚动
+		scrollbars: false,//是否显示滚动条
+		//click:true
+	},100);
+	//-----
+	
+})
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+</script>
+
+</body>
+</html>
